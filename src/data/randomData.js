@@ -1,4 +1,4 @@
-import { imgType } from "../utility/cellSupportedFileTypes";
+import { supportedTypes } from "../utility/cellSupportedFileTypes";
 
 const columnData = [
     {
@@ -31,7 +31,7 @@ const columnData = [
         id: 5, 
         field: 'file', 
         label: 'Dyanmic Value Type',
-        cellRenderer: imgType
+        cellRenderer: supportedTypes
     }
 ];
 

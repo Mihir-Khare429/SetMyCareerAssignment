@@ -1,4 +1,4 @@
-export const imgType = ({ tableManager, value, field, data, column, colIndex, rowIndex }) => {
+export const supportedTypes = ({ tableManager, value, field, data, column, colIndex, rowIndex }) => {
     return (
         data.type === "img" ? 
         <div className='rgt-cell-inner' style={{display: 'flex', alignItems: 'center', overflow: 'hidden'}}>
