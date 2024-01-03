@@ -32,6 +32,11 @@ const columnData = [
         field: 'file', 
         label: 'Dyanmic Value Type',
         cellRenderer: supportedTypes
+    },
+    {
+        id: 6, 
+        field: 'Remark', 
+        label: 'Remarks if any'
     }
 ];
 
@@ -43,7 +48,8 @@ const rowData = [
         "last_visited": "12/08/2019", 
         "test": {"x": 1, "y": 2},
         "type": "img",
-        "file":"https://robohash.org/atquenihillaboriosam.bmp?size=32x32&set=set1"
+        "file":"https://robohash.org/atquenihillaboriosam.bmp?size=32x32&set=set1",
+        "Remark": "raskjajs"
     },
     { 
         "id": 2, 
@@ -52,7 +58,8 @@ const rowData = [
         "last_visited": "16/07/2018", 
         "test": {"x": 3, "y": 4}, 
         "type": "img",
-        "file":"https://robohash.org/etsedex.bmp?size=32x32&set=set1"
+        "file":"https://robohash.org/etsedex.bmp?size=32x32&set=set1",
+        "Remark": "raskjajs"
     },
     { 
         "id": 3, 
@@ -61,7 +68,8 @@ const rowData = [
         "last_visited": "20/11/2016", 
         "test": {"x": 5, "y": 8},
         "type": "img",
-        "file":"https://robohash.org/inimpeditquam.bmp?size=32x32&set=set1"
+        "file":"https://robohash.org/inimpeditquam.bmp?size=32x32&set=set1",
+        "Remark": "raskjajs"
     },
     { 
         "id": 4, 
@@ -70,7 +78,8 @@ const rowData = [
         "last_visited": "03/08/2019", 
         "test": {"x": 7, "y": 4}, 
         "type": "img",
-        "file":"https://robohash.org/nobisducimussaepe.bmp?size=32x32&set=set1"
+        "file":"https://robohash.org/nobisducimussaepe.bmp?size=32x32&set=set1",
+        "Remark": "raskjajs"
     },
     { 
         "id": 5, 
@@ -79,7 +88,8 @@ const rowData = [
         "last_visited": "10/10/2016", 
         "test": {"x": 2, "y": 2},
         "type": "img",
-        "file":"https://robohash.org/etconsequatureaque.jpg?size=32x32&set=set1"
+        "file":"https://robohash.org/etconsequatureaque.jpg?size=32x32&set=set1",
+        "Remark": "raskjajs"
     },
     { 
         "id": 6, 
@@ -88,7 +98,8 @@ const rowData = [
         "last_visited": "11/10/2016", 
         "test": {"x": 8, "y": 2},
         "type": "file",
-        "file":""
+        "file":"",
+        "Remark": "raskjajs"
     },
     { 
         "id": 7, 
@@ -98,7 +109,8 @@ const rowData = [
         "test": {"x": 8, "y": 12},
         "type": "select",
         "file":"",
-        "values" : ['Option 1', 'Option 2', 'Option 3', 'Option 4']
+        "values" : ['Option 1', 'Option 2', 'Option 3', 'Option 4'],
+        "Remark": "raskjajs"
     },
     { 
         "id": 8, 
